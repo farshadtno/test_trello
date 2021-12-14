@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+}
+.Top {
+  position: sticky;
+  width: 100vw;
+  height: 72px;
+  background-color: lightblue;
+}
+#trello {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: "Charlie Text", sans-serif;
+}
+#log_in {
+  position: fixed;
+  top: 20px;
+  right: 100px;
+  color: rgb(0, 101, 255);
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Charlie Text", sans-serif;
+  text-align: center;
+  padding: 8px;
+}
+#sign_up {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Charlie Text", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: content-box;
+  padding: 8px;
+}
+a:hover#log_in {
+  color: rgb(0, 81, 202);
+}
+a:link#sign_up {
+  background-color: rgb(0, 102, 255);
+}
+a:hover#sign_up {
+  background-color: rgb(0, 81, 202);
+}
+a:active#sign_up {
+  outline: 4px solid rgb(177, 177, 177);
+}
